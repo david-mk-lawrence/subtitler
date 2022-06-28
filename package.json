@@ -123,6 +123,7 @@
         ]
       ],
       "packagerConfig": {
+        "executableName": "subtitler",
         "icon": "./assets/icons/icon",
         "protocols": [
           {
