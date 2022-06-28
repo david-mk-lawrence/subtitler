@@ -1,0 +1,18 @@
+{
+    "shift": {
+        "button": "Shift",
+        "forward": "forward",
+        "backward": "backward",
+        "all": "Shift <strong>all</strong> captions {{direction}}",
+        "selected_one": "Shift <strong>{{count}} selected</strong> caption {{direction}}",
+        "selected_other": "Shift <strong>{{count}} selected</strong> captions {{direction}}",
+        "none": "Select subtitles to shift"
+    },
+    "remove": {
+        "button": "Remove",
+        "all": "Remove <strong>all</strong> captions?",
+        "selected_one": "Remove <strong>{{count}} selected</strong> caption?",
+        "selected_other": "Remove <strong>{{count}} selected</strong> captions?",
+        "none": "Select subtitles to remove"
+    }
+}

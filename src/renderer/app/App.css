@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea {
+        font-size: inherit;
+    }
+
+    .window-drag {
+        -webkit-app-region: drag
+    }
+
+    .h-screen-center {
+        height: calc(100vh - 2 * theme('spacing.14') - 2 * theme('spacing.9'));
+    }
+
+    .mb-screen-70 {
+        margin-bottom: 70vh;
+    }
+
+    .hr-cl-50 hr {
+        border-color: theme('colors.cl.50');
+    }
+    .hr-cl-100 hr {
+        border-color: theme('colors.cl.100');
+    }
+    .hr-cl-200 hr {
+        border-color: theme('colors.cl.200');
+    }
+    .hr-cl-300 hr {
+        border-color: theme('colors.cl.300');
+    }
+    .hr-cl-400 hr {
+        border-color: theme('colors.cl.400');
+    }
+    .hr-cl-500 hr {
+        border-color: theme('colors.cl.500');
+    }
+    .hr-cl-600 hr {
+        border-color: theme('colors.cl.600');
+    }
+    .hr-cl-700 hr {
+        border-color: theme('colors.cl.700');
+    }
+    .hr-cl-800 hr {
+        border-color: theme('colors.cl.800');
+    }
+    .hr-cl-900 hr {
+        border-color: theme('colors.cl.900');
+    }
+
+    .hr-bl-50 hr {
+        border-color: theme('colors.bl.50');
+    }
+    .hr-bl-100 hr {
+        border-color: theme('colors.bl.100');
+    }
+    .hr-bl-200 hr {
+        border-color: theme('colors.bl.200');
+    }
+    .hr-bl-300 hr {
+        border-color: theme('colors.bl.300');
+    }
+    .hr-bl-400 hr {
+        border-color: theme('colors.bl.400');
+    }
+    .hr-bl-500 hr {
+        border-color: theme('colors.bl.500');
+    }
+    .hr-bl-600 hr {
+        border-color: theme('colors.bl.600');
+    }
+    .hr-bl-700 hr {
+        border-color: theme('colors.bl.700');
+    }
+    .hr-bl-800 hr {
+        border-color: theme('colors.bl.800');
+    }
+    .hr-bl-900 hr {
+        border-color: theme('colors.bl.900');
+    }
+
+    .hr-bd-50 hr {
+        border-color: theme('colors.bd.50');
+    }
+    .hr-bd-100 hr {
+        border-color: theme('colors.bd.100');
+    }
+    .hr-bd-200 hr {
+        border-color: theme('colors.bd.200');
+    }
+    .hr-bd-300 hr {
+        border-color: theme('colors.bd.300');
+    }
+    .hr-bd-400 hr {
+        border-color: theme('colors.bd.400');
+    }
+    .hr-bd-500 hr {
+        border-color: theme('colors.bd.500');
+    }
+    .hr-bd-600 hr {
+        border-color: theme('colors.bd.600');
+    }
+    .hr-bd-700 hr {
+        border-color: theme('colors.bd.700');
+    }
+    .hr-bd-800 hr {
+        border-color: theme('colors.bd.800');
+    }
+    .hr-bd-900 hr {
+        border-color: theme('colors.bd.900');
+    }
+
+    .alert.info {
+        background-color: theme('colors.sky.200');
+    }
+    .alert.success {
+        background-color: theme('colors.green.200');
+    }
+    .alert.warning {
+        background-color: theme('colors.amber.300');
+    }
+    .alert.error {
+        background-color: theme('colors.red.200');
+    }
+
+    .alert.info button:hover {
+        background-color: theme('colors.sky.300');
+    }
+
+    .alert.success button:hover {
+        background-color: theme('colors.green.300');
+    }
+
+    .alert.warning button:hover {
+        background-color: theme('colors.amber.400');
+    }
+
+    .alert.error button:hover {
+        background-color: theme('colors.red.300');
+    }
+
+    /* Dark */
+    .alert-d.info {
+        background-color: theme('colors.sky.600');
+    }
+
+    .alert-d.success {
+        background-color: theme('colors.green.700');
+    }
+
+    .alert-d.warning {
+        background-color: theme('colors.amber.400');
+        color: theme('colors.slate.800');
+    }
+
+    .alert-d.error {
+        background-color: theme('colors.red.700');
+    }
+
+    .alert-d.info button:hover {
+        background-color: theme('colors.sky.800');
+    }
+
+    .alert-d.success button:hover {
+        background-color: theme('colors.green.800');
+    }
+
+    .alert-d.warning button:hover {
+        background-color: theme('colors.amber.500');
+    }
+
+    .alert-d.error button:hover {
+        background-color: theme('colors.red.800');
+    }
+}

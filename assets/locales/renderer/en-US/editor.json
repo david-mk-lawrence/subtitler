@@ -1,0 +1,17 @@
+{
+    "dragDrop": {
+        "multipleFileError": "Only 1 file may be opened at a time",
+        "description": "Drag your file here, or click to browse"
+    },
+    "insert": {
+        "title": "Insert new caption"
+    },
+    "remove": {
+        "title": "Remove caption"
+    },
+    "columns": {
+        "ts": "Timestamps",
+        "caption": "Caption",
+        "remove": "Remove"
+    }
+}

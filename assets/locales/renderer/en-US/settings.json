@@ -1,0 +1,37 @@
+{
+    "tabs": {
+        "appearance": "Appearance",
+        "advanced": "Advanced",
+        "i18n": "Internationalization"
+    },
+    "advanced": {
+        "logging": {
+            "title": "Enable Logging",
+            "description": "When enabled, the application will write debug information to {{filepath}}"
+        },
+        "reset": {
+            "button": "Reset",
+            "description": "Click to reset the settings to their default values"
+        }
+    },
+    "appearance": {
+        "theme": {
+            "system": "System",
+            "dark": "Dark",
+            "light": "Light",
+            "description": "Set the UI theme. Set to 'System' to adjust according to your OS settings."
+        }
+    },
+    "i18n": {
+        "direction": {
+            "leftToRight": "Left to right",
+            "rightToLeft": "Right to Left",
+            "description": "Changes the directional layout of the application"
+        },
+        "lang": {
+            "title": "Override Language",
+            "description": "The UI will automatically use the system default language. Setting this will force the UI to use the selected language. The application must be restarted for the Menu language to change.",
+            "warning": "Note that this has no effect on caption content. Changing this setting will not automatically translate captions."
+        }
+    }
+}

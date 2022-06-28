@@ -1,0 +1,35 @@
+{
+    "open": {
+        "title": "Open"
+    },
+    "new": {
+        "title": "New"
+    },
+    "save": {
+        "title": "Save"
+    },
+    "saveAs": {
+        "title": "Save As"
+    },
+    "undo": {
+        "title": "Undo"
+    },
+    "redo": {
+        "title": "Redo"
+    },
+    "theme": {
+        "title": "Toggle Theme"
+    },
+    "editor": {
+        "title": "Editor"
+    },
+    "preferences": {
+        "title": "Preferences"
+    },
+    "shift": {
+        "title": "Shift Selected"
+    },
+    "remove": {
+        "title": "Remove Selected"
+    }
+}

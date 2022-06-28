@@ -1,0 +1,18 @@
+{
+    "short": {
+        "ms": "ms",
+        "s": "s",
+        "m": "m",
+        "h": "h"
+    },
+    "long": {
+        "ms_one": "millisecond",
+        "ms_other": "milliseconds",
+        "s_one": "second",
+        "s_other": "seconds",
+        "m_one": "minute",
+        "m_other": "minutes",
+        "h_one": "hour",
+        "h_other": "hours"
+    }
+}
