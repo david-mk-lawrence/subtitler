@@ -20,6 +20,9 @@
     "make": "electron-forge make",
     "publish": "electron-forge publish"
   },
+  "config": {
+    "forge": "./forge.config.js"
+  },
   "sideEffects": [
     "*.css"
   ],
@@ -57,6 +60,7 @@
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^5.2.0",
+    "dotenv": "^16.0.1",
     "electron": "^19.0.1",
     "electron-reloader": "^1.2.0",
     "eslint": "^8.16.0",
@@ -98,81 +102,5 @@
     "react-router-dom": "^6.3.0",
     "redux-undo": "^1.0.1",
     "write-file-atomic": "^4.0.1"
-  },
-  "config": {
-    "forge": {
-      "plugins": [
-        [
-          "@electron-forge/plugin-webpack",
-          {
-            "devContentSecurityPolicy": "`default-src 'self' 'unsafe-inline' data:; script-src 'self' 'unsafe-eval' 'unsafe-inline' data:`",
-            "mainConfig": "./webpack.electron.js",
-            "renderer": {
-              "config": "./webpack.react.js",
-              "entryPoints": [
-                {
-                  "name": "main_window",
-                  "html": "./src/renderer/index.html",
-                  "js": "./src/renderer/index.tsx",
-                  "preload": {
-                    "js": "./src/preload.ts"
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      ],
-      "packagerConfig": {
-        "executableName": "subtitler",
-        "icon": "./assets/icons/icon",
-        "protocols": [
-          {
-            "name": "Subtitler",
-            "schemes": [
-              "subtitler"
-            ]
-          }
-        ]
-      },
-      "makers": [
-        {
-          "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "Subtitler"
-          }
-        },
-        {
-          "name": "@electron-forge/maker-zip",
-          "platforms": [
-            "darwin"
-          ]
-        },
-        {
-          "name": "@electron-forge/maker-deb",
-          "config": {
-            "mimeType": [
-              "x-scheme-handler/subtitler"
-            ]
-          }
-        },
-        {
-          "name": "@electron-forge/maker-rpm",
-          "config": {}
-        }
-      ],
-      "publishers": [
-        {
-          "name": "@electron-forge/publisher-github",
-          "config": {
-            "repository": {
-              "owner": "david-mk-lawrence",
-              "name": "subtitler"
-            },
-            "prerelease": true
-          }
-        }
-      ]
-    }
   }
 }
